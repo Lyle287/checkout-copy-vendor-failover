@@ -1,0 +1,17 @@
+{
+  "name": "checkout-copy-vendor-failover",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "checkout-note": "tsx src/checkout_preview.ts",
+    "test": "tsx --test test/checkout_reassurance.test.ts"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
