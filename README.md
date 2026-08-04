@@ -1,6 +1,6 @@
 # Keep checkout reassurance flowing when a model vendor changes
 
-A storefront shouldn't need a separate provider integration just to show a short, accurate note next to the payment button. This small TypeScript script keeps the official OpenAI client and points its OpenAI-compatible `baseURL` at Infrai, with `model: "auto"` selecting a serving vendor for each request.
+A storefront should not need a separate provider integration just to put a short, accurate note beside the payment button. This small TypeScript script keeps the official OpenAI client and points its OpenAI-compatible `baseURL` at Infrai, with `model: "auto"` selecting a serving vendor for each request.
 
 ## Run the checkout preview
 
